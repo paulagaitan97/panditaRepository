@@ -1,8 +1,8 @@
 terraform {
     backend "azurerm"{
-        resource_group_name = "TerraformResourcesGroup"
-        storage_account_name = "storagepandas"
-        container_name = "containerofpandas"
+        resource_group_name = "RGPandas"
+        storage_account_name = "stalmacenpandas"
+        container_name = "contenedorpandas"
         key = "panditastfstate"
     }
 }
