@@ -3,7 +3,7 @@ terraform {
         resource_group_name = "RGPandas"
         storage_account_name = "stalmacenpandas"
         container_name = "contenedorpandas"
-        key = "panditastfstate"
+        key = "panditas.tfstate"
     }
 }
 
